@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حذف البيانات - صناع الأثر</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 2;
+        }
+        .header {
+            background: linear-gradient(135deg, #1a7a4c, #2e7d32);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .header h1 { font-size: 1.8em; margin-bottom: 5px; }
+        .header a { color: rgba(255,255,255,0.8); text-decoration: none; }
+        .header a:hover { color: white; }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .content {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #1a7a4c;
+            margin: 25px 0 15px;
+            font-size: 1.3em;
+            border-bottom: 2px solid #e8f5e9;
+            padding-bottom: 8px;
+        }
+        h2:first-child { margin-top: 0; }
+        p { margin-bottom: 12px; }
+        ul { margin: 10px 30px 15px; }
+        li { margin-bottom: 8px; }
+        ol { margin: 10px 30px 15px; }
+        ol li { margin-bottom: 12px; }
+        .step-number {
+            display: inline-block;
+            background: #1a7a4c;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 28px;
+            font-size: 0.9em;
+            margin-left: 8px;
+        }
+        .warning {
+            background: #fff3e0;
+            border-right: 4px solid #ff9800;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .update-date {
+            text-align: center;
+            color: #999;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #1a7a4c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>حذف البيانات</h1>
+        <a href="index.html">← الرجوع للصفحة الرئيسية</a>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h2>طلب حذف بياناتك</h2>
+            <p>نحترم حقك في حذف بياناتك الشخصية من تطبيق صناع الأثر. يمكنك طلب حذف حسابك وجميع بياناتك المرتبطة به في أي وقت.</p>
+
+            <h2>كيفية طلب الحذف</h2>
+            <p>يمكنك طلب حذف بياناتك بأحد الطرق التالية:</p>
+
+            <p><span class="step-number">١</span> <strong>من داخل التطبيق:</strong></p>
+            <p>اذهب إلى الإعدادات ← حذف الحساب ← تأكيد الحذف</p>
+
+            <p><span class="step-number">٢</span> <strong>عبر البريد الإلكتروني:</strong></p>
+            <p>أرسل طلب حذف إلى <strong>support@sunna-al-athar.app</strong> مع ذكر رقم هاتفك المسجل في التطبيق.</p>
+
+            <h2>البيانات التي سيتم حذفها</h2>
+            <p>عند طلب حذف حسابك، سيتم حذف:</p>
+            <ul>
+                <li>معلومات حسابك الشخصية (الاسم، رقم الهاتف، الصورة).</li>
+                <li>سجل تبرعاتك.</li>
+                <li>طلبات المساعدة المقدمة منك.</li>
+                <li>تسجيلك كمتبرع دم.</li>
+                <li>جميع الإشعارات المرتبطة بحسابك.</li>
+                <li>رموز الأجهزة المسجلة (FCM tokens).</li>
+            </ul>
+
+            <div class="warning">
+                <strong>تنبيه:</strong> عملية الحذف لا يمكن التراجع عنها. بمجرد حذف بياناتك، لن نتمكن من استعادتها. إذا رغبت في استخدام التطبيق مجدداً، ستحتاج إلى إنشاء حساب جديد.
+            </div>
+
+            <h2>مدة معالجة الطلب</h2>
+            <ul>
+                <li><strong>الحذف من التطبيق:</strong> فوري.</li>
+                <li><strong>الحذف عبر البريد الإلكتروني:</strong> خلال 7 أيام عمل.</li>
+                <li><strong>حذف النسخ الاحتياطية:</strong> قد يستغرق حتى 30 يوماً.</li>
+            </ul>
+
+            <h2>البيانات المحتفظ بها</h2>
+            <p>قد نحتفظ ببعض البيانات المجهولة (غير المرتبطة بهويتك) لأغراض إحصائية. كما قد نحتفظ ببعض البيانات إذا كان ذلك مطلوباً بموجب القانون.</p>
+
+            <h2>التواصل معنا</h2>
+            <p>لأي استفسارات حول حذف البيانات:</p>
+            <ul>
+                <li>البريد الإلكتروني: <strong>support@sunna-al-athar.app</strong></li>
+            </ul>
+
+            <div class="update-date">
+                <p>آخر تحديث: ٩ فبراير ٢٠٢٦</p>
+            </div>
+        </div>
+        <a class="back-link" href="index.html">← الرجوع للصفحة الرئيسية</a>
+    </div>
+</body>
+</html>
